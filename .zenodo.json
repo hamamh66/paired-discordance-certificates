@@ -1,0 +1,47 @@
+{
+  "title": "Paired Discordance Certificates for Comparing Frozen Diagnostic AI Policies Across Disease Prevalence, Harm, and Conditional Population Shift — code and data",
+  "upload_type": "software",
+  "license": "MIT",
+  "description": "Reproducible implementation of a discordance-gated paired certificate for comparing frozen diagnostic policies across disease prevalence, false-positive harm and bounded conditional population shift, with frozen audit predictions for two public UCI benchmarks, an executed notebook, results and figures.",
+  "creators": [
+    {
+      "name": "Ghadi, Yazeed Yasin",
+      "affiliation": "Al Ain University",
+      "orcid": "0000-0002-7121-495X"
+    },
+    {
+      "name": "Zayoud, Rahma",
+      "affiliation": "Université de Moncton",
+      "orcid": "0009-0009-0625-6262"
+    },
+    {
+      "name": "Guizani, Sghaier",
+      "affiliation": "Alfaisal University",
+      "orcid": "0009-0009-1491-4878"
+    },
+    {
+      "name": "Alghamdi, Zeyad",
+      "affiliation": "University of Ha'il",
+      "orcid": "0000-0001-5763-2103"
+    },
+    {
+      "name": "Elmannai, Hela",
+      "affiliation": "Princess Nourah bint Abdulrahman University",
+      "orcid": "0000-0003-2571-1848"
+    },
+    {
+      "name": "Hamam, Habib",
+      "affiliation": "Université de Moncton",
+      "orcid": "0000-0002-5320-1012"
+    }
+  ],
+  "keywords": [
+    "diagnostic AI",
+    "net benefit",
+    "decision curve analysis",
+    "paired inference",
+    "Clopper-Pearson",
+    "label shift",
+    "reproducibility"
+  ]
+}

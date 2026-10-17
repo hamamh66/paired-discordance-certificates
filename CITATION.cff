@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "Paired Discordance Certificates for Comparing Frozen Diagnostic AI Policies Across Disease Prevalence, Harm, and Conditional Population Shift"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-10-17
+authors:
+  - family-names: "Ghadi"
+    given-names: "Yazeed Yasin"
+    affiliation: "Al Ain University"
+    orcid: "https://orcid.org/0000-0002-7121-495X"
+  - family-names: "Zayoud"
+    given-names: "Rahma"
+    affiliation: "Université de Moncton"
+    orcid: "https://orcid.org/0009-0009-0625-6262"
+  - family-names: "Guizani"
+    given-names: "Sghaier"
+    affiliation: "Alfaisal University"
+    orcid: "https://orcid.org/0009-0009-1491-4878"
+  - family-names: "Alghamdi"
+    given-names: "Zeyad"
+    affiliation: "University of Ha'il"
+    orcid: "https://orcid.org/0000-0001-5763-2103"
+  - family-names: "Elmannai"
+    given-names: "Hela"
+    affiliation: "Princess Nourah bint Abdulrahman University"
+    orcid: "https://orcid.org/0000-0003-2571-1848"
+  - family-names: "Hamam"
+    given-names: "Habib"
+    affiliation: "Université de Moncton"
+    orcid: "https://orcid.org/0000-0002-5320-1012"
+repository-code: https://github.com/hamamh66/paired-discordance-certificates

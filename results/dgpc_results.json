@@ -1,0 +1,483 @@
+{
+  "alpha": 0.05,
+  "delta": 0.01,
+  "bonferroni_units": 18,
+  "datasets": {
+    "breast_cancer": {
+      "n1": 42,
+      "n0": 72,
+      "sha256": "89595e861b50637542c4504ab2ca9fc62b86d93c0c2fee8027343cd3dee63fd2",
+      "DKW_unresolved": 1.0,
+      "DGPC_unresolved": 1.0,
+      "DGPC_winner_fractions": {
+        "Logistic": 0.0,
+        "Forest": 0.0,
+        "MLP": 0.0,
+        "Act on all": 0.0,
+        "Act on none": 0.0
+      },
+      "DKW_winner_fractions": {
+        "Logistic": 0.0,
+        "Forest": 0.0,
+        "MLP": 0.0,
+        "Act on all": 0.0,
+        "Act on none": 0.0
+      }
+    },
+    "heart": {
+      "n1": 24,
+      "n0": 30,
+      "sha256": "581bdb43dc1f6467954c8ec54acbf3cf7b383dcb8698a395826b7e966e5dd5a5",
+      "DKW_unresolved": 1.0,
+      "DGPC_unresolved": 0.96875,
+      "DGPC_winner_fractions": {
+        "Logistic": 0.0,
+        "Forest": 0.0,
+        "MLP": 0.0,
+        "Act on all": 0.0,
+        "Act on none": 0.03125
+      },
+      "DKW_winner_fractions": {
+        "Logistic": 0.0,
+        "Forest": 0.0,
+        "MLP": 0.0,
+        "Act on all": 0.0,
+        "Act on none": 0.0
+      }
+    }
+  },
+  "paired_intervals": [
+    {
+      "dataset": "breast_cancer",
+      "pair": "Logistic-Forest",
+      "outcome": "cases",
+      "n": 42,
+      "discordant": 7,
+      "estimate": 0.11904761904761904,
+      "DGPC_lower": -0.19547122698537264,
+      "DGPC_upper": 0.39311220089403925,
+      "DGPC_width": 0.5885834278794119,
+      "DKW_width": 1.0217295256053398
+    },
+    {
+      "dataset": "breast_cancer",
+      "pair": "Logistic-Forest",
+      "outcome": "controls",
+      "n": 72,
+      "discordant": 3,
+      "estimate": 0.013888888888888888,
+      "DGPC_lower": -0.1571335064650947,
+      "DGPC_upper": 0.16410131959448485,
+      "DGPC_width": 0.32123482605957954,
+      "DKW_width": 0.780358815142965
+    },
+    {
+      "dataset": "breast_cancer",
+      "pair": "Logistic-MLP",
+      "outcome": "cases",
+      "n": 42,
+      "discordant": 5,
+      "estimate": 0.07142857142857142,
+      "DGPC_lower": -0.24516683283672344,
+      "DGPC_upper": 0.3336246698930684,
+      "DGPC_width": 0.5787915027297919,
+      "DKW_width": 1.0217295256053398
+    },
+    {
+      "dataset": "breast_cancer",
+      "pair": "Logistic-MLP",
+      "outcome": "controls",
+      "n": 72,
+      "discordant": 9,
+      "estimate": -0.09722222222222222,
+      "DGPC_lower": -0.2800892319376907,
+      "DGPC_upper": 0.08418839455442381,
+      "DGPC_width": 0.3642776264921145,
+      "DKW_width": 0.780358815142965
+    },
+    {
+      "dataset": "breast_cancer",
+      "pair": "Forest-MLP",
+      "outcome": "cases",
+      "n": 42,
+      "discordant": 4,
+      "estimate": -0.047619047619047616,
+      "DGPC_lower": -0.30184711307425965,
+      "DGPC_upper": 0.2588078513525578,
+      "DGPC_width": 0.5606549644268175,
+      "DKW_width": 1.0217295256053398
+    },
+    {
+      "dataset": "breast_cancer",
+      "pair": "Forest-MLP",
+      "outcome": "controls",
+      "n": 72,
+      "discordant": 8,
+      "estimate": -0.1111111111111111,
+      "DGPC_lower": -0.2623339789252178,
+      "DGPC_upper": 0.03180900581828298,
+      "DGPC_width": 0.2941429847435008,
+      "DKW_width": 0.780358815142965
+    },
+    {
+      "dataset": "heart",
+      "pair": "Logistic-Forest",
+      "outcome": "cases",
+      "n": 24,
+      "discordant": 0,
+      "estimate": 0.0,
+      "DGPC_lower": -0.23977091779515317,
+      "DGPC_upper": 0.23977091779515317,
+      "DGPC_width": 0.47954183559030633,
+      "DKW_width": 1.351621115961865
+    },
+    {
+      "dataset": "heart",
+      "pair": "Logistic-Forest",
+      "outcome": "controls",
+      "n": 30,
+      "discordant": 6,
+      "estimate": -0.06666666666666667,
+      "DGPC_lower": -0.4722144961160306,
+      "DGPC_upper": 0.38300329562848,
+      "DGPC_width": 0.8552177917445106,
+      "DKW_width": 1.2089266780459424
+    },
+    {
+      "dataset": "heart",
+      "pair": "Logistic-MLP",
+      "outcome": "cases",
+      "n": 24,
+      "discordant": 3,
+      "estimate": 0.125,
+      "DGPC_lower": -0.33506789631934475,
+      "DGPC_upper": 0.43131292403429244,
+      "DGPC_width": 0.7663808203536372,
+      "DKW_width": 1.351621115961865
+    },
+    {
+      "dataset": "heart",
+      "pair": "Logistic-MLP",
+      "outcome": "controls",
+      "n": 30,
+      "discordant": 3,
+      "estimate": 0.1,
+      "DGPC_lower": -0.278960222971947,
+      "DGPC_upper": 0.35908886163362996,
+      "DGPC_width": 0.638049084605577,
+      "DKW_width": 1.2089266780459424
+    },
+    {
+      "dataset": "heart",
+      "pair": "Forest-MLP",
+      "outcome": "cases",
+      "n": 24,
+      "discordant": 3,
+      "estimate": 0.125,
+      "DGPC_lower": -0.33506789631934475,
+      "DGPC_upper": 0.43131292403429244,
+      "DGPC_width": 0.7663808203536372,
+      "DKW_width": 1.351621115961865
+    },
+    {
+      "dataset": "heart",
+      "pair": "Forest-MLP",
+      "outcome": "controls",
+      "n": 30,
+      "discordant": 9,
+      "estimate": 0.16666666666666666,
+      "DGPC_lower": -0.2920827470559809,
+      "DGPC_upper": 0.5798487416959365,
+      "DGPC_width": 0.8719314887519174,
+      "DKW_width": 1.2089266780459424
+    }
+  ],
+  "pairwise": [
+    {
+      "dataset": "breast_cancer",
+      "a": "Logistic",
+      "b": "Forest",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Logistic",
+      "b": "Forest",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Logistic",
+      "b": "MLP",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Logistic",
+      "b": "MLP",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Forest",
+      "b": "Logistic",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Forest",
+      "b": "Logistic",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Forest",
+      "b": "MLP",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "Forest",
+      "b": "MLP",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "MLP",
+      "b": "Logistic",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "MLP",
+      "b": "Logistic",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "MLP",
+      "b": "Forest",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "breast_cancer",
+      "a": "MLP",
+      "b": "Forest",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Logistic",
+      "b": "Forest",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Logistic",
+      "b": "Forest",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Logistic",
+      "b": "MLP",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Logistic",
+      "b": "MLP",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Forest",
+      "b": "Logistic",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Forest",
+      "b": "Logistic",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Forest",
+      "b": "MLP",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "Forest",
+      "b": "MLP",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "MLP",
+      "b": "Logistic",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "MLP",
+      "b": "Logistic",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "MLP",
+      "b": "Forest",
+      "method": "DKW",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    },
+    {
+      "dataset": "heart",
+      "a": "MLP",
+      "b": "Forest",
+      "method": "DGPC",
+      "supported_fraction": 0.0,
+      "max_reserve": 0.0
+    }
+  ],
+  "simulation": [
+    {
+      "n_per_class": 25,
+      "reps": 2000,
+      "DGPC_joint_coverage": 1.0,
+      "DGPC_any_false_claim": 0.0,
+      "DKW_any_false_claim": 0.0,
+      "DGPC_mean_certified_fraction": 7.5e-05,
+      "DKW_mean_certified_fraction": 0.0,
+      "truly_material_fraction": 0.983125
+    },
+    {
+      "n_per_class": 50,
+      "reps": 2000,
+      "DGPC_joint_coverage": 1.0,
+      "DGPC_any_false_claim": 0.0,
+      "DKW_any_false_claim": 0.0,
+      "DGPC_mean_certified_fraction": 0.0009240625,
+      "DKW_mean_certified_fraction": 0.0,
+      "truly_material_fraction": 0.983125
+    },
+    {
+      "n_per_class": 200,
+      "reps": 2000,
+      "DGPC_joint_coverage": 0.9995,
+      "DGPC_any_false_claim": 0.0,
+      "DKW_any_false_claim": 0.0,
+      "DGPC_mean_certified_fraction": 0.0978865625,
+      "DKW_mean_certified_fraction": 0.0,
+      "truly_material_fraction": 0.983125
+    },
+    {
+      "n_per_class": 1000,
+      "reps": 2000,
+      "DGPC_joint_coverage": 0.999,
+      "DGPC_any_false_claim": 0.0,
+      "DKW_any_false_claim": 0.0,
+      "DGPC_mean_certified_fraction": 0.852068125,
+      "DKW_mean_certified_fraction": 9.781250000000001e-05,
+      "truly_material_fraction": 0.983125
+    }
+  ],
+  "planning": [
+    {
+      "discordance": 0.05,
+      "halfwidth": 0.02,
+      "n_per_class": 1999
+    },
+    {
+      "discordance": 0.05,
+      "halfwidth": 0.05,
+      "n_per_class": 501
+    },
+    {
+      "discordance": 0.1,
+      "halfwidth": 0.02,
+      "n_per_class": 3165
+    },
+    {
+      "discordance": 0.1,
+      "halfwidth": 0.05,
+      "n_per_class": 698
+    },
+    {
+      "discordance": 0.2,
+      "halfwidth": 0.02,
+      "n_per_class": 5422
+    },
+    {
+      "discordance": 0.2,
+      "halfwidth": 0.05,
+      "n_per_class": 1049
+    },
+    {
+      "discordance": 0.4,
+      "halfwidth": 0.02,
+      "n_per_class": 9844
+    },
+    {
+      "discordance": 0.4,
+      "halfwidth": 0.05,
+      "n_per_class": 1737
+    },
+    {
+      "discordance": "DKW (any)",
+      "halfwidth": 0.02,
+      "n_per_class": 27404
+    },
+    {
+      "discordance": "DKW (any)",
+      "halfwidth": 0.05,
+      "n_per_class": 4385
+    }
+  ]
+}
